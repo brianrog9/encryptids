@@ -1,5 +1,6 @@
 html, body{
     max-width: 100%;
+    margin: 0;
 }
 
 .nav{
@@ -29,20 +30,42 @@ html, body{
     justify-content: center;
 }
 
-.nav--logo img {
-    width: 40%;
+.nav_logo img {
+    width: 100%;
 }
 
-.nav--right {
+.nav_right {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
 }
 
-.nav--left {
+.nav_left {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 32px;
+    text-decoration: none;
+    color: #E9E6E1;
+}
+
+li a:hover {
+    color:#CF8440;
+}
+
+.hero{
+    background-color: #221E2C;
+    padding-bottom: 1800px;
 }
