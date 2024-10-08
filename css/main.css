@@ -1,3 +1,677 @@
+.caption {
+    position:relative;
+    z-index:10;
+    background-color: #fff;
+    border:solid;
+    border-width: 3px;
+    border-color:black;
+    padding:3rem;
+    margin-top:-6rem;
+    margin-left:4rem;
+  }
+  
+  .project {
+    display:block;
+    width:100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color:black;
+  }
+  
+  .project__name {
+    font-size:3rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    margin-bottom: 2rem;
+  }
+  
+  .project__desc {
+    line-height: 1.5;
+    margin-bottom:1rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:300;
+    font-style: normal;
+    font-size:2.2rem;
+  }
+  
+  .container {
+    margin-left:20px;
+    max-width:715px;
+  }
 
+  .altwork__container {
+    margin-left:20px;
+    max-width:1000px;
+  }
+
+  .altwork__caption {
+    position:relative;
+    z-index:10;
+    background-color: #fff;
+    border:solid;
+    border-width: 3px;
+    border-color:black;
+    display: inline-block;
+    padding:2rem;
+    width:70%;
+  }
+  
+
+  .altwork__img {
+    width:60%;
+    margin-right:-166px;
+  }
+
+  .altwork__imgright {
+    width:60%;
+    margin-left:-166px;
+  }
+  
+  .altwork__project {
+    display:flex;
+    width:100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color:black;
+    align-items: center;
+    margin-top:60px;
+  }
+  
+  .altworkproject__name {
+    font-size:2rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .altworkproject__desc {
+    line-height: 1.5;
+    margin-bottom:1rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:300;
+    font-style: normal;
+    font-size:1.37rem;
+  }
+
+  .workheader {
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:28px;
+    margin-top:30px;
+    line-height: 34px;
+  }
+
+  .work__shortline {
+    border-bottom: solid black 6px;
+    width:80px;
+    margin-bottom:-10px;
+    padding-top:50px;
+  }
+
+  .button {
+    display:inline-block;
+    text-decoration: none;
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:1.1rem;
+    color:#fff;
+    background:#e86c1f;
+    padding:.9rem 1.2rem;
+    transition:all 0.3s ease 0s;
+  }
+
+  .button:hover {
+    background:white;
+    border:#e86c1f solid 3px;
+    color:#e86c1f;
+    margin: -3px;
+  }
+
+  .news__container {
+    margin-left:20px;
+    max-width:1015px;
+  }
+
+  .content__container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newscontainer__homepage {
+    max-width:1015px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:10;
+    top:-100px;
+  }
+
+  .newsheadline {
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:68px;
+  }
+
+  .newstagline {
+    font-family: halyard-micro, sans-serif;
+    font-weight: 300;
+    font-size:30px;
+    padding-bottom:30px;
+  }
+
+  .news__caption {
+    background-color: #fff;
+    border:solid;
+    border-width: 3px;
+    border-color:black;
+    width:100%;
+    padding:3rem;
+  }
+
+  .news__caption:hover {
+    margin-top:-15px;
+    margin-bottom:15px;
+  }
+
+  .news__project {
+    display:block;
+    width:100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color:black;
+  }
+
+  .news__img {
+    width:30%;
+    float:right;
+    padding-left:170px;
+  }
+
+  .button__news {
+    display:inline-block;
+    text-decoration: none;
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:1.1rem;
+    color:#fff;
+    background:black;
+    padding:.9rem 1.2rem;
+    transition:all 0.3s ease 0s;
+  }
+
+  .margin {
+    margin-bottom:80px;
+  }
+
+  .button__news:hover {
+    background:white;
+    border:black solid 3px;
+    color:black;
+    margin: -3px;
+  }
+
+  .newssub {
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:1.3rem;
+  }
+
+  .news__name {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:32px;
+  }
+
+  .news__desc {
+    font-family: halyard-micro, sans-serif;
+    font-weight:300;
+    font-size:20px;
+    line-height:1.8rem;
+    padding-bottom:20px;
+  }
+
+  .button__container {
+      margin-left:20px;
+      max-width:1215px;
+    
+  }
+
+  .blue {
+    background:#50d9dd;
+  }
+
+  .peach {
+    background:#ed988a;
+  }
+
+  .navy {
+    background:#5f7b8e;
+  }
+
+  .blue:hover {
+    background:white;
+    border:#50d9dd solid 3px;
+    color:#50d9dd;
+    margin: -3px;
+  }
+
+  .peach:hover {
+    background:white;
+    border:#ed988a solid 3px;
+    color:#ed988a;
+    margin: -3px;
+  }
+
+  .navy:hover {
+    background:white;
+    border:#5f7b8e solid 3px;
+    color:#5f7b8e;
+    margin: -3px;
+  }
+
+  .nav__container {
+    margin-left:20px;
+    max-width:1800px;
+  }
+
+  .nav__img {
+    max-width:1800px;
+  }
+
+  .nav__list {
+    padding: 0;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .wrapper__homepage {
+    display:flex;
+    justify-content: space-between;
+    border-top:black solid 3px;
+    border-bottom:black solid 3px;
+    align-content: center;
+    position:fixed;
+    z-index:100;
+    top:0;
+    left:0;
+    width:100%;
+    background:#ffffff;
+  }
+
+  .wrapper {
+    display:flex;
+    justify-content: space-between;
+    border-top:black solid 3px;
+    border-bottom:black solid 3px;
+    align-content: center;
+  }
+
+  .logo {
+    width:85px;
+    padding-top:10px;
+  }
+
+  .menu {
+    width:75px;
+    padding-left:15px;
+  }
+
+  .weathertext {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:14px;
+  }
+
+  .links__container {
+    margin-left:20px;
+    max-width:600px;
+  }
+
+  .navlinks__list {
+    padding:50px;
+    list-style: none;
+    font-size:92px;
+  }
+
+  .navlinks__list a{
+    text-decoration: none;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    color:white;
+    line-height: 140px;
+  }
+
+  .backgroundwrapper {
+    background:#1f1f1f;
+  }
+
+  .feature__container {
+    margin-left:20px;
+    max-width:1900px;
+  }
+
+  .featureimg {
+    width:1900px;
+  }
+
+  .featureimgcode {
+    background-image: url("../img/feature.PNG");
+    background-size: 100%;
+    background-repeat: none;
+  }
+
+  .featureline {
+    font-family: halyard-micro, sans-serif;
+    color:white;
+    margin-left: auto;
+    margin-right:auto;
+    width:750px;
+    padding:350px 0 350px 0;
+  }
+
+  .featureheadline {
+    font-size: 60px;
+    font-weight:500;
+  }
+
+  .featuresub {
+    font-weight: 300;
+    font-size:46px;
+    line-height:4rem;
+  }
+
+  .footer__container {
+    width:100%;
+    margin-left:20px;
+  }
+
+  .footerhome__container {
+    max-width:1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:80px;
+  }
+
+  .flex {
+    display:inline-flex;
+  }
+
+  .footerleft {
+    width:100%;
+  }
+
+  .footer__shortline {
+    border-bottom: solid black 6px;
+    width:80px;
+    margin-bottom:-10px;
+    padding-top:50px;
+  }
+
+  .footer__clientheader {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:30px;
+  }
+
+  .footer_img {
+    width:60px;
+  }
+
+  .footer__logolist {
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding:20px 60px 20px 0;
+  }
+  
+  .footer__logolist li {
+    padding:30px;
+  }
+
+  .right {
+    margin-right: 80px;
+  }
+
+  .blackbox { 
+    background: #1f1f1f;
+    position:absolute;
+    right:0;
+    height:50%;
+    width:40%;
+    z-index:-1;
+  }
+
+  .footerright {
+    background:#1f1f1f;
+    width:100%;
+    padding-top:50px;
+  }
+
+  .footerbottom {
+    background:#1f1f1f;
+    width:100%;
+  }
+
+  .looking {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:30px;
+    color:white;
+    line-height: 40px;
+    padding-left:80px;
+    padding-bottom:10px;
+  }
+
+  .cont {
+    width:1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact {
+    float:right;
+  }
+
+  .lookingcontainer {
+    width:450px;
+  }
+
+  .talk {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:40px;
+    color:white;
+    padding-left:80px;
+  }
+
+  .footerbottomleft {
+    background-color: #1f1f1f;
+    width:100%;
+  }
+
+  .logo__footer{
+    width:250px;
+    padding:60px 60px 60px 0;
+  }
+
+  .socialicons {
+    display:flex;
+    list-style: none;
+    padding-bottom:20px;
+    margin-left:-33px;
+  }
+
+  .socialicons a {
+    padding-right:40px;
+    color:white;
+    font-size:22px;
+  }
+
+  .socialicons a:hover {
+    opacity: 60%;
+  }
+
+  .copyright {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:14px;
+    color:rgb(129, 129, 129);
+  }
+  
+  .terms {
+    text-decoration: none;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:14px;
+    padding-left:60px;
+    padding-top:15px;
+    padding-bottom:20px;
+    color:rgb(129, 129, 129);
+  }
+
+  .footerbottomright {
+    background:#1f1f1f;
+    width:100%;
+  }
+
+  .email {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:24px;
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding-bottom:30px;
+    padding-top:110px;
+  }
+  
+  .phone {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:24px;
+    color:white;
+    text-decoration: none;
+  }
+
+  .address {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:rgb(129, 129, 129);
+    line-height: 16px;
+  }
+  
+  .email:hover, .phone:hover {
+    opacity:70%;
+  }
+
+  h4 {
+    font-family: sans-serif;
+    font-size:30px;
+    background:#1f1f1f;
+    color:white;
+    padding:30px;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-size:50px;
+    margin-left:60px;
+  }
+
+  .pagenav {
+    position:fixed;
+    z-index:100;
+    background:#1f1f1f;
+    right:0;
+    top:0;
+    bottom:0;
+    width:250px;
+  }
+
+  .navtitle {
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    font-size:24px;
+    color:white;
+    padding:50px;
+  }
+
+  .navlinks {
+    font-family: halyard-micro, sans-serif;
+    font-weight:300;
+    font-size:18px;
+    list-style: none;
+    line-height:60px;
+    padding-left: 60px;
+  }
+
+  .navlinks a {
+    color:white;
+    text-decoration: none;
+  }
+
+  .navlinks a:hover {
+    opacity:70%;
+  }
+
+    /* The side navigation menu */
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #1f1f1f; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 400px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 18px 8px 8px 45%;
+    text-decoration: none;
+    font-size: 75px;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #c7c7c7;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top:30px;
+  }
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .transform{
+    transition: all 0.5s ease-in-out;
+  }
 
 
