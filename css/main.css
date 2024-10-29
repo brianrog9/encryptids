@@ -14,6 +14,7 @@ html, body{
     position:sticky;
     top:0;
     overflow:hidden;
+    z-index: 2;
 }
 
 .nav ul{
@@ -376,4 +377,35 @@ li a:hover {
     100% {
       transform: translatex(100%);
     }
+  }
+
+  .brandguidelines {
+    position: relative;
+  }
+
+  .brandguidelines img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brandguidelines .btn {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #CF8440;
+    color: #221E2C;
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    padding: 12px 54px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .brandguidelines .btn:hover {
+    background-color: #E9E6E1;
   }
