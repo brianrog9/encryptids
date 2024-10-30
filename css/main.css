@@ -409,3 +409,99 @@ li a:hover {
   .brandguidelines .btn:hover {
     background-color: #E9E6E1;
   }
+
+
+  .cslider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .cslide {
+    display: none;
+    text-align: center;
+  }
+
+  .cslide img { 
+    width: 100%;
+  }
+
+  .cslide.active {
+    display: block;
+    animation: fade 0.5s ease-in-out;
+  }
+
+  @keyframes fade {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+  }
+
+  .navigation {
+    text-align: center;
+    padding: 20px;
+    background-color: #221E2C;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 15px;
+    background-color: #E9E6E1;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dot.active {
+    background-color: #CF8440;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 24px;
+    color: #261217;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #CF8440;
+    border: none;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: #E9E6E1;
+  }
+
+  .btn--char1 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #CF8440;
+    color: #221E2C;
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    padding: 12px 34px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn--char1:hover {
+    background-color: #E9E6E1;
+  }

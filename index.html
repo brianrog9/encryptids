@@ -94,9 +94,7 @@
     </div>
 
     <div class="process" id="process">
-
       <div class="process--container">
-
         <div class="process--headline">
           <h1>Process &amp; User Feedback</h1>
         </div>
@@ -181,10 +179,77 @@
     </div>
 
     <div class="characters" id="characters">
+
+      <div class="cslider-container">
+        <div class="cslide active">
+          <img src="img/Enroot6.jpg" alt="Image 1">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+        <div class="cslide">
+          <img src="img/Ramen3.jpg" alt="Image 2">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+        <div class="cslide">
+          <img src="img/Enroot6.jpg" alt="Image 3">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+        <div class="cslide">
+          <img src="img/Ramen3.jpg" alt="Image 4">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+        <div class="cslide">
+          <img src="img/Enroot6.jpg" alt="Image 5">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+        <div class="cslide">
+          <img src="img/Ramen3.jpg" alt="Image 6">
+          <button class="btn--char1">Cryptid Wiki</button>
+        </div>
+    
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+    
+        <div class="navigation"></div>
+      </div>
       
     </div>
   
-
+    <script>
+      let currentSlide = 0;
+      const slides = document.getElementsByClassName('cslide');
+      const navigation = document.querySelector('.navigation');
+  
+      // Create navigation dots
+      for (let i = 0; i < slides.length; i++) {
+        const dot = document.createElement('span');
+        dot.className = 'dot';
+        dot.onclick = () => showSlide(i);
+        navigation.appendChild(dot);
+      }
+  
+      const dots = document.getElementsByClassName('dot');
+      dots[0].classList.add('active');
+  
+      function showSlide(n) {
+        // Remove active class from current slide and dot
+        slides[currentSlide].classList.remove('active');
+        dots[currentSlide].classList.remove('active');
+  
+        // Calculate new slide index
+        currentSlide = n;
+        if (currentSlide >= slides.length) currentSlide = 0;
+        if (currentSlide < 0) currentSlide = slides.length - 1;
+  
+        // Add active class to new slide and dot
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('active');
+      }
+  
+      function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+      }
+  
+    </script>
 
   </body>
 </html>
