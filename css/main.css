@@ -93,7 +93,7 @@ li a:hover {
 }
 
 .hero--copy {
-    background-color:#221E2C;
+    background-color: rgba(34, 30, 44, 0.7);
     position:relative;
     top:-450px;
     display: flex;
@@ -150,6 +150,10 @@ li a:hover {
     background-color: #E9E6E1;
 }
 
+.quest {
+  background-color: #221E2C;
+}
+
 .questions{
     width: 100%;
     height: auto;
@@ -170,7 +174,15 @@ li a:hover {
     font-style: normal;
     font-size: 54px;
     color:#CF8440;
-    padding-bottom: 1300px;
+    padding-bottom: 60px;
+}
+
+.research img {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .process {
@@ -381,6 +393,8 @@ li a:hover {
 
   .brandguidelines {
     position: relative;
+    background-color: #221E2C;
+
   }
 
   .brandguidelines img {
@@ -410,12 +424,29 @@ li a:hover {
     background-color: #E9E6E1;
   }
 
+  .characters {
+    background-color: #221E2C;
+    padding-top: 40px;
+  }
+
+  .characters h3{
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 64px;
+    color:#CF8440;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+  }
+
 
   .cslider-container {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    background-color: #221E2C;
   }
 
   .cslide {
@@ -438,9 +469,16 @@ li a:hover {
   }
 
   .navigation {
+    position:absolute;
+    width:20%;
+    left:0;
+    right:0;
+    top: 93%;
+    margin-left:auto;
+    margin-right:auto;
     text-align: center;
-    padding: 20px;
-    background-color: #221E2C;
+    padding: 20px 80px 20px 80px;
+    background-color: rgba(34, 30, 44, 0.7);
   }
 
   .dot {
@@ -508,16 +546,32 @@ li a:hover {
 
   /*Video Slider*/
 
+  .tales {
+    background-color: #221E2C;
+    padding-top: 50px;
+  }
+
+  .talehead {
+    display:flex;
+    justify-content: center;
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 54px;
+    color:#E9E6E1;
+  }
+
   .custom-video-slider {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: #000;
+    background: #221E2C;
   }
 
   .custom-video-slider .cvs-container {
     position: absolute;
-    width: 100%;
+    width: 90%;
+    left: 5%;
     height: 100%;
     display: none;
     opacity: 0;
@@ -552,7 +606,7 @@ li a:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(207, 132, 64, 1);
     color: white;
     border: none;
     padding: 20px;
@@ -563,7 +617,7 @@ li a:hover {
   }
 
   .custom-video-slider .cvs-nav-arrow:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(233, 230, 225, 0.8);
   }
 
   .custom-video-slider .cvs-prev-arrow {
@@ -593,7 +647,7 @@ li a:hover {
   }
 
   .custom-video-slider .cvs-indicator.active {
-    background: white;
+    background: #CF8440;
   }
 
   .custom-video-slider .cvs-time-progress {
@@ -602,13 +656,13 @@ li a:hover {
     left: 0;
     width: 100%;
     height: 4px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(207, 132, 64, 0.2);
     cursor: pointer;
   }
 
   .custom-video-slider .cvs-progress-bar {
     height: 100%;
-    background: #fff;
+    background: #CF8440;
     width: 0;
     transition: width 0.1s linear;
   }
@@ -616,7 +670,7 @@ li a:hover {
   .custom-video-slider .cvs-play-pause {
     background: none;
     border: none;
-    color: white;
+    color: #E9E6E1;
     cursor: pointer;
     font-size: 24px;
     padding: 10px;
@@ -626,7 +680,7 @@ li a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: #CF8440;
   }
 
   .custom-video-slider .cvs-volume-slider {
@@ -651,4 +705,46 @@ li a:hover {
     padding-top: 115px;
     padding-bottom: 145px;
     width: 50%;
+}
+
+.summary--content h3 {
+  font-family: "sauna-new", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  color:#CF8440;
+}
+
+.summary--content p {
+  font-family: "alwyn-new-web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30p
+
+}
+
+.summary--content .btn {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #CF8440;
+  font-family: "sauna-new", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24px;
+  padding: 12px 54px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-top: 60px
+}
+
+.summary--content .btn a {
+  text-decoration: none;
+  color: #221E2C;
+}
+
+.summary--content .btn:hover {
+  background-color: #E9E6E1;
 }
