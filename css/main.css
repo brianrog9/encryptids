@@ -207,7 +207,7 @@ li a:hover {
 .process--container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
 }
 
 .process h1{
@@ -231,16 +231,13 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    margin-top: -50px;
     width: 100%;
-    height: 100%;
     opacity: 0;
     transform: translatex(-100%);
     transition: transform 250ms linear;
 }
   
 .slide-content {
-    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -453,6 +450,14 @@ li a:hover {
 
   .brandguidelines .btn:hover {
     background-color: #E9E6E1;
+  }
+
+  .worldbuild {
+    background-color :#221E2C;
+  }
+
+  .worldbuild img {
+    width:100%;
   }
 
   .characters {
