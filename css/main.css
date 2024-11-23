@@ -603,7 +603,7 @@ li a:hover {
 
   .custom-video-slider {
     position: relative;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background: #221E2C;
   }
@@ -1126,7 +1126,7 @@ li a:hover {
 
 .custom-video-slider {
   position: relative;
-  width: 100vw;
+  width: 98vw;
   height: 50vh;
   background: #221E2C;
 }
@@ -1329,7 +1329,7 @@ li a:hover {
   color:#CF8440;
   padding-top: 0;
   margin-top: 15px;
-  width: 100%;
+  width: 98%;
   padding: 25px 5px 25px 5px;
   background-color: #E9E6E1;
   line-height: 36px;
@@ -1341,7 +1341,7 @@ li a:hover {
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
-  width: 100%;
+  width: 95%;
   padding: 25px 15px 25px 15px;
   background-color: #E9E6E1;
   margin:0;
@@ -1524,7 +1524,7 @@ display:none;
 
 .custom-video-slider {
   position: relative;
-  width: 100vw;
+  width: 97vw;
   height: 50vh;
   background: #221E2C;
 }
