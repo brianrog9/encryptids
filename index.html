@@ -14,6 +14,14 @@
 
   <body>
 
+    <div id="loader-container">
+      <img src="img/Nav_Logo.png" alt="Enryptids logo">
+      <div class="progress-bar">
+          <div class="progress"></div>
+      </div>
+  </div>
+
+<div id="main-content">
     <div class="nav">
       <ul>
         <div class="nav_left">
@@ -29,7 +37,7 @@
         <div class="nav_right">
           <li><a href="https://cara.app/brogers276" target="_blank">Progress Platform</a></li>
           <li><a href="https://docs.google.com/document/d/1a0MrRpO2QA3J-61492GIez21hbU6_nLyPH3v75wzV80/edit?usp=sharing" target="_blank">Bibliography</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="https://brigon.design/" target="_blank">Portfolio</a></li>
         </div>
       </ul>
 
@@ -158,7 +166,7 @@ education on AI technologies they may be unaware of.
             </li>
             <li class="slide">
               <p class="slide-image">
-                <img src="img/externalfeedback.png" alt="project_brief_image" width="100%" height="100%">
+                <img src="img/ExpertFeedback.jpg" alt="project_brief_image" width="100%" height="100%">
               </p>
               <div class="slide-content">
                 <h3 class="slide-title">External Feedback</h3>
@@ -275,15 +283,36 @@ education on AI technologies they may be unaware of.
           <button class="btn" type="button"><a href="https://www.roxanelapa.com/anti-ai-generative-art-resources/" target="_blank">Resources</a></button>
           <button class="btn" type="button"><a href="https://nightshade.cs.uchicago.edu/whatis.html" target="_blank">Night Shade</a></button>
           <button class="btn" type="button"><a href="https://www.tess.design/models" target="_blank">Ethical Generator</a></button>
+          <button class="btn" type="button"><a href="https://www.yuify.com/" target="_blank">Yuify</a></button>
         </div> 
       </div>
       
     </div>
+  </div>
   
     <script>
       let currentSlide = 0;
       const slides = document.getElementsByClassName('cslide');
       const navigation = document.querySelector('.navigation');
+
+
+      //Loading Screen
+      document.addEventListener('DOMContentLoaded', function() {
+            const loader = document.getElementById('loader-container');
+            const mainContent = document.getElementById('main-content');
+
+            // Wait for the animation duration (4s) plus a small delay
+            setTimeout(() => {
+                // Add fade-out class to loader
+                loader.classList.add('fade-out');
+                // Show main content
+                mainContent.classList.add('show');
+                // Remove the loader after fade animation
+                setTimeout(() => {
+                    loader.remove();
+                }, 500);
+            }, 4000);
+        });
   
       // Create navigation dots
       for (let i = 0; i < slides.length; i++) {
