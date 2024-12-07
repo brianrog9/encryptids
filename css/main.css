@@ -500,6 +500,12 @@ li a:hover {
     border-radius: 5px;
   }
 
+  .brandguidelines .btn a {
+    text-decoration: none;
+    color: #221E2C;
+    
+  }
+
   .brandguidelines .btn:hover {
     background-color: #E9E6E1;
   }
